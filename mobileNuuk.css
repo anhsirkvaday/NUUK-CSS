@@ -1,0 +1,368 @@
+@media only screen and (min-width:320px) and (max-width:768px){
+    body{
+        margin: 0px;
+        scroll-behavior: smooth;
+    }
+    main{
+        background-position: center;
+    }
+    .homePage{
+        height: 100vh;
+        padding-top: 0px;
+    }
+    .homePage header{
+        flex-direction: column;
+        width: 100%;
+    }
+    header a{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    header nav a::before{
+        display: none;
+    }
+    header nav a::after{
+        display: none;
+    }
+    header a img{
+        width: 160px;
+        height: 40px;
+    }
+
+
+    /* Header Navigation */
+    header nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        height: 50px;
+        width: 100%;
+        padding: 0px;
+    }
+    header nav a{
+        padding: 4px 4px;
+        color: black;
+        text-align: center;
+    }
+    header #headerButton{
+        width: 100%;
+        height: 50px;
+        font-size: 12px;
+        font-weight: 700;
+        border: none;
+        background-color: #E47312;
+        color: white;
+    }
+    #content{
+        width: 85%;
+        margin: 40px auto 0px auto;
+    }
+    #content h1{
+        font-size: 50px;
+        letter-spacing: 0px;
+        margin: 0px;
+        color: white;
+        font-weight: 600;
+    }
+    #content p{
+        font-size: 20px;
+        margin: 0px;
+        font-weight: 400;
+        color: #ffffff;
+        margin-bottom: 40px;
+    }
+    #content a{
+        text-decoration: none;
+        color: white;
+        background-color: #E47312;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 15px 30px;
+    }
+    .homePage #link{
+        position: absolute;
+        right: 0px;
+        top: 435px;
+    }
+    .homePage #link li{
+        padding: 15px 20px;
+    }
+    .homePage #link li img{
+        width: 16px;
+        height: 16px;
+    }
+    .address{
+        display: none;
+    }
+
+    /* our Specialization start */
+    .services{
+        z-index: 0;
+    }
+    .services h1{
+        display: none;
+    }
+    .services #ourSpecial{
+        padding: 0px 10px;
+        flex-direction: column;
+        margin: auto;
+        align-items: flex-start;
+    }
+    #ourSpecial h2{
+        font-size: 26px;
+        font-weight: 600;
+        display: block;
+        width: 100%;
+        margin: 50px 0px 10px 0px;
+    }
+    .services .servicesCol{
+        flex-direction: column;
+        padding: 40px 10px;
+    }
+    .services .servicesCol .serColoums{
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .services .whoRWe{
+        margin: 0px;
+        align-items: left;
+        width: 100%;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .services .whoRWe h1{
+        display: none;
+    }
+    .services .whoRWe .image img{
+        width: 95%;
+    }
+    .services .whoRWe .text{
+        width: 100%;
+    }
+    .services .whoRWe .text div{
+        margin: 0px;
+        padding: 0px 10px;
+    }
+    .services .whoRWe .text div h1{
+        display: none;
+    }
+    .services .whoRWe .text div h2{
+        font-size: 26px;
+        text-align: left;
+    }
+    .services .numbers{
+        flex-direction: column;
+        width: 100%;
+        padding: 0px 10px;
+    }
+    .services .numbers div{
+        box-sizing: border-box;
+        width: 90%;
+        padding: 0px;
+        margin: 0px;
+        padding: 0px 10px;
+    }
+    .services .numbers div h4{
+        margin: 0px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    /* Our Work Section Close */
+
+    /* Project Section Started */
+    .projects{
+        background-position: center;
+    }
+    .projects h1{
+        display: none;
+        width: 100%;
+    }
+    .projects .image{
+        margin: 0px;
+        width: 100%;
+    }
+    .projects .image #heading{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        padding: 0px 0px 50px 10px;
+    }
+    .projects .image #heading h2 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    .image .photosOne{
+        flex-direction: column;
+        width: 100%;
+        padding: 0px 10px;
+    }
+    .image .photosOne section{
+        width: 95%;
+        height: 280px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    #quote{
+        text-align: left;
+        padding: 0px 20px;
+        height: 280px;
+        margin: 0px;
+    }
+    #quote h4{
+        font-size: 26px;
+        padding: 0px 0px;
+    }
+
+    /* Profesional team section start */
+    .teamPro h1{
+        display: none;
+    }
+    .teamPro .professional {
+        margin: 0px;
+        padding-top: 80px;
+    }
+    .professional #teamProHead{
+        padding: 0px 20px;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+    }
+    .professional #teamProHead h3{
+        font-size: 26px;
+    }
+    .professional #photoPro{
+        flex-direction: column;
+        width: 90%;
+    }
+    #photoPro #image{
+        width: 100%;
+        margin-top: 20px;
+    }
+    #image img {
+        width: 100%;
+    }
+
+    /* Client Section Started*/
+    .clients{
+        flex-direction: column;
+    }
+    .clients .heading{
+        width: 100%;
+    }
+    .clients .heading h1{
+        display: none;
+    }
+    .clients .heading div{
+        padding: 20px;
+        width: 100%;
+    }
+    .clients .heading div h3{
+        font-size: 26px;
+        margin: 50px 0px 40px 0px;
+    }
+    .clients .comment{
+        flex-direction: column;
+        width: 100%;
+        padding: 0px 20px ;
+    }
+    .comment #rowOne{
+        width: 100%;
+    }
+    .comment #rowTwo{
+        width: 100%;
+        margin: 20px auto 0px auto;
+    }
+    .comment div{
+        width: 100%;
+        padding: 40px 0px 20px 0px;
+    }
+    .comment span{
+        top: -35px;
+        left: 40%;
+    }
+
+    /* Blog Secion Started */
+    .blogs h1{
+        display: none;
+    }
+    .blogs .latest{
+        width: 100%;
+        border: 0px solid red;
+    }
+    .blogs .latest #head{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 0px;
+        padding: 0px 20px;
+        align-items: flex-start;
+        border: 0px solid greenyellow;
+    }
+    .blogs .latest h2{
+        font-size: 26px;
+        text-align: left;
+        margin: 10px 0px;
+        width: 100%;
+    }
+    .blogs .latest .latestBlog{
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        padding: 20px;
+    }
+    .blogs .latest .latestBlog div{
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .latestBlog div .img{
+        width: 100%;
+    }
+    .latestBlog div .text .date{
+        text-align: center;
+        width: 25%;
+        border: 0px solid red;
+    }
+    .latestBlog div .text .date h2{
+        border: 0px solid red;
+        width: 100%;
+    }
+    .latestBlog div .text .date p{
+        text-align: center;
+        border: 0px solid red;
+    }
+
+    /* Section Logo Images started */
+    .logoImage{
+        flex-direction: column;
+        padding: 0px 20px;
+        justify-content: flex-start;
+    }
+    .logoImage h6{
+        margin: 50px 0px 20px 0px;
+    }
+    .logoImage img {
+        margin: 30px 0px;
+        width: 80px;
+        height: 50px;
+    }
+    footer{
+        width: 100%;
+        padding: 0px 20px;
+    }
+    footer section{
+        flex-direction: column;
+        width: 100%;
+    }
+    footer section div{
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    footer .logo a{
+        padding: 22px 25px;
+        width: 85px;
+    }
+
+}
+    

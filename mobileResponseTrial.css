@@ -1,0 +1,105 @@
+@media only screen and (min-width:320px) and (max-width:768px){
+    body{
+        margin: 0px;
+        scroll-behavior: smooth;
+    }
+    main{
+        width: 100%;
+        height: auto;
+        background-image: url('https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .homePage{
+        border: 0px solid red;
+        width: 100%;
+        padding: 0px;
+        height: 100vh;
+        background: linear-gradient(to right, #c4c2cdd9, #c4c2cd12);
+    }
+    .homePage header{
+        display: flex;
+        width: 100%;
+        height: 65px;
+    }
+    header a{
+        text-decoration: none;
+        background-color: #E47312;
+        padding: 20px 20px;
+        width: 30%;
+    }
+    header a img{
+        width: 90px;
+        height: 21px;
+    }
+
+
+    /* Header Navigation */
+    header nav{
+        display: inline block;
+        position: relative;
+        background-color: white;
+        height: 100%;
+        width: 100%;
+        background-image: url('https://www.freeiconspng.com/thumbs/menu-icon/menu-icon-13.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 50px 30px;
+        background-position-y: center;
+    }
+    header nav a{
+        display: none;
+        position: absolute;
+        z-index: 5;
+        width: 100%;
+        text-decoration: none;
+        padding: 10px 0px;
+        text-align: center;
+        color: black;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    header nav:hover a{
+        display: block;
+    }
+    header nav a:hover{
+        color:#E47312;
+    }
+
+    #content{
+        width: 85%;
+        margin: 40px auto 0px auto;
+    }
+    #content h1{
+        font-size: 50px;
+        letter-spacing: 0px;
+        margin: 0px;
+        color: white;
+        font-weight: 600;
+    }
+    #content p{
+        font-size: 20px;
+        margin: 0px;
+        font-weight: 400;
+        color: #ffffff;
+        margin-bottom: 40px;
+    }
+    #content a{
+        text-decoration: none;
+        color: white;
+        background-color: #E47312;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 15px 30px;
+    }
+    .homePage #link{
+        position: absolute;
+        right: 0px;
+        top: 422px;
+    }
+    .address{
+        display: none;
+    }
+    
+}
